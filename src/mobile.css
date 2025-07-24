@@ -1,0 +1,64 @@
+/* Mobile-specific styles for screens <= 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+        padding: 0 4vw;
+    }
+
+    .navbar {
+        flex-direction: column !important;
+        padding: 2vh 4vw !important;
+        gap: 1vh;
+    }
+
+    .nav-links {
+        flex-direction: column !important;
+        gap: 2vh !important;
+        font-size: 2.2vh !important;
+    }
+
+    .logo-main {
+        font-size: 4vh !important;
+    }
+
+    .sperate:after {
+        font-size: 3vh !important;
+    }
+
+    .mind {
+        font-size: 10vh !important;
+    }
+
+    .world {
+        font-size: 6vh !important;
+    }
+
+    /* Add more selectors as needed for your layout */
+}
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    .navbar {
+        padding: 1vh 2vw !important;
+    }
+
+    .logo-main {
+        font-size: 2.5vh !important;
+    }
+
+    .sperate:after {
+        font-size: 2vh !important;
+    }
+
+    .mind {
+        font-size: 6vh !important;
+    }
+
+    .world {
+        font-size: 3vh !important;
+    }
+}
