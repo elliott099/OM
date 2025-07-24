@@ -197,7 +197,7 @@ const Page1 = () => {
                 className="w-full h-screen flex flex-col items-center justify-center relative z-10 reveal-text"
             >
                 {/* Line 1: OPEN MIND */}
-                <div className="text-[10vw] font-bold tracking-tighter text-center leading-none select-none">
+                <div className="page1-text text-[10vw] font-bold tracking-tighter text-center leading-none select-none">
                     <div>
                         <span
                             className="text-[var(--text-color)]"
@@ -264,13 +264,13 @@ const Page1 = () => {
 
             {/* CTA */}
             <div
-                className="absolute bottom-[10vh] left-1/2 transform -translate-x-1/2 z-10 text-center"
+                className="page1-text-2 absolute bottom-[10vh] left-1/2 transform -translate-x-1/2 z-10 text-center"
                 style={{
                     transform: 'translate(calc(-50% + var(--move-x, 0) * 0.3), calc(var(--move-y, 0) * 0.3))',
                 }}
             >
-                <p className="text-[2.5vh] font-light text-[var(--text-color)] mb-4 tracking-wide">
-                    Empowering Minds Through Technology
+                <p className="page1-text-2-para text-[2.5vh] font-light text-[var(--text-color)] mb-4 tracking-wide">
+                    Evolution to Revolution
                 </p>
                 <button
                     className="px-8 py-3 text-[2vh] font-semibold rounded-full bg-gradient-to-br from-[var(--text-color)] to-[var(--secondary-color)] text-[var(--bg-color)] shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_10px_40px_rgba(0,0,0,0.2)] backdrop-blur-md transition-all duration-500 ease-in-out hover:scale-105"

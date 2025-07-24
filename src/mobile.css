@@ -9,7 +9,7 @@
         flex-direction: row !important;
         align-items: center !important;
         justify-content: space-between !important;
-        padding: 0!important;
+        padding: 0 !important;
         gap: 3vh;
     }
 
@@ -49,7 +49,7 @@
     }
 
     .mind {
-        font-size: 10vh !important;
+        font-size: 50vh !important;
     }
 
     .world {
@@ -58,8 +58,10 @@
 
     /* Home Page Main Text */
     .reveal-text .text-\[10vw\] {
-        font-size: 8vw !important;
+        font-size: 15vw !important;
         line-height: 1.1 !important;
+        position: absolute;
+        top: 20%;
     }
 
     .reveal-text .ml-\[2vw\] {
@@ -70,8 +72,16 @@
         margin-top: 1vh !important;
     }
 
-    .reveal-text .text-\[2\.5vh\] {
+    .page1-text-2 {
         font-size: 2vh !important;
+        position: absolute;
+        top: 40%;
+        /* transform: translateX(-50%); */
+    }
+
+    .page1-text-2-para {
+        font-size: 3vh !important;
+        /* transform: translateX(-50%); */
     }
 
     .reveal-text button {
@@ -93,30 +103,3 @@
 
     /* Add more selectors as needed for your layout */
 }
-
-/* Extra small devices (phones, less than 480px)
-@media (max-width: 480px) {
-    body {
-        font-size: 13px;
-    }
-
-    .navbar {
-        padding: 1vh 2vw !important;
-    }
-
-    .logo-main {
-        font-size: 2.5vh !important;
-    }
-
-    .sperate:after {
-        font-size: 2vh !important;
-    }
-
-    .mind {
-        font-size: 6vh !important;
-    }
-
-    .world {
-        font-size: 3vh !important;
-    }
-} */
