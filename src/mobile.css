@@ -6,16 +6,17 @@
     }
 
     .navbar {
-        flex-direction: column !important;
+        flex-direction: row !important;
         align-items: center !important;
-        padding: 2vh 4vw !important;
+        justify-content: center !important;
+        padding: 1vh 1vw !important;
         gap: 1vh;
     }
 
     .nav-links {
-        flex-direction: column !important;
+        flex-direction: row !important;
         gap: 2vh !important;
-        font-size: 2.2vh !important;
+        font-size: 1.6vh !important;
         align-items: center !important;
     }
 
@@ -28,11 +29,12 @@
     .logo-main {
         font-size: 4vh !important;
         text-align: center !important;
+        color: var(--text-color) !important;
     }
 
     .logo {
         justify-content: center !important;
-        width: 100%;
+        /* width: 100%; */
     }
 
     .sperate:after {
