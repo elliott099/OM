@@ -8,22 +8,26 @@
     .navbar {
         flex-direction: row !important;
         align-items: center !important;
-        justify-content: center !important;
-        padding: 1vh 1vw !important;
-        gap: 1vh;
+        justify-content: space-between !important;
+        padding: 0!important;
+        gap: 3vh;
     }
 
     .nav-links {
         flex-direction: row !important;
-        gap: 2vh !important;
+        gap: 0.7vh !important;
         font-size: 1.6vh !important;
         align-items: center !important;
     }
 
     .nav-links .group {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         padding: 10px 0 !important;
+        font-size: 1.5vh !important;
     }
 
     .logo-main {
@@ -32,9 +36,12 @@
         color: var(--text-color) !important;
     }
 
-    .logo {
-        justify-content: center !important;
-        /* width: 100%; */
+    #login {
+        display: none !important;
+    }
+
+    #contact {
+        display: none !important;
     }
 
     .sperate:after {
@@ -87,7 +94,7 @@
     /* Add more selectors as needed for your layout */
 }
 
-/* Extra small devices (phones, less than 480px) */
+/* Extra small devices (phones, less than 480px)
 @media (max-width: 480px) {
     body {
         font-size: 13px;
@@ -112,4 +119,4 @@
     .world {
         font-size: 3vh !important;
     }
-}
+} */
