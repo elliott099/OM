@@ -172,12 +172,12 @@ const Page2 = () => {
 
     return (
         <div className="min-h-screen py-16 page2">
-            <div className="container mx-auto px-4">
+            <div className="page2container mx-auto px-4">
                 {/* Header Section */}
                 <div className="max-w-3xl mx-auto text-center mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 anton">
                         Transform Your Career with
-                        <span className="block" style={{ color: 'var(--text-color-secondary)' }}> Professional Courses</span>
+                        <span className="block" style={{ color: 'var(--text-color-secondary)' }}> Professional <span className='text-[var(--gradient-glow)]'>Courses</span></span>
                     </h1>
                     <p className="text-xl mb-8" style={{ color: 'var(--text-color-secondary)' }}>
                         Learn from industry experts and master the skills that matter in today's job market

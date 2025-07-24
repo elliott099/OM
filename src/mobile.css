@@ -126,4 +126,79 @@
         transition: transform 0.1s ease-in-out;
     }
 
+    /* ===== PAGE 2 - Course Card Layout Fixes ===== */
+
+    .page2 .h-\[700px\] {
+        height: auto !important;
+        min-height: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page2 .p-8 {
+        padding: 1.2rem !important;
+    }
+
+    /* Adjust course card header height */
+    .page2 .h-52 {
+        height: 180px !important;
+        padding: 1rem !important;
+    }
+
+    /* Reduce icon size */
+    .page2 .text-6xl {
+        font-size: 2.5rem !important;
+    }
+
+    /* Fix title */
+    .page2 h3.text-2xl {
+        font-size: 1.3rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    /* Fix course description */
+    .page2 p {
+        font-size: 1.4vh !important;
+        line-height: 1.5 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    /* Compact stats */
+    .page2 .mb-8.p-4 {
+        padding: 0.75rem !important;
+        margin-bottom: 1rem !important;
+        font-size: 1.3vh !important;
+    }
+
+    /* Compact feature list */
+    .page2 .space-y-3.mb-8>div {
+        padding: 0.75rem 1rem !important;
+        font-size: 1.35vh !important;
+    }
+
+    /* Stack action buttons */
+    .page2 .grid-cols-2 {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+
+    /* Button style */
+    .page2 button {
+        padding: 1.1vh 2vh !important;
+        font-size: 1.6vh !important;
+        border-radius: 12px !important;
+    }
+
+    /* Compact pricing tag */
+    .page2 .text-2xl.font-bold {
+        font-size: 1.4rem !important;
+    }
+
+    /* Header stats pills */
+    .page2 .text-sm {
+        font-size: 1.2vh !important;
+        padding: 0.3rem 0.7rem !important;
+    }
+
+
 }
