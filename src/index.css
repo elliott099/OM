@@ -25,6 +25,7 @@
     --text-color: #121212;
     --text-color-secondary: white;
     --secondary-color: #6d6d6d;
+    --gradient-glow: linear-gradient(120deg, rgba(0, 136, 255, 0.25), rgba(166, 66, 255, 0.25));
     --primary-glow: rgba(0, 136, 255, 0.25);
     --secondary-glow: rgba(166, 66, 255, 0.25);
     --card-bg: rgba(255, 255, 255, 0.7);

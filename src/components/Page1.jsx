@@ -270,11 +270,16 @@ const Page1 = () => {
                 }}
             >
                 <p className="page1-text-2-para text-[2.5vh] font-light text-[var(--text-color)] mb-4 tracking-wide">
-                    Evolution to Revolution
+                    Evolution to <span className="text-[var(--gradient-glow)] font-bold">Revolution</span>
                 </p>
                 <button
-                    className="px-8 py-3 text-[2vh] font-semibold rounded-full bg-gradient-to-br from-[var(--text-color)] to-[var(--secondary-color)] text-[var(--bg-color)] shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_10px_40px_rgba(0,0,0,0.2)] backdrop-blur-md transition-all duration-500 ease-in-out hover:scale-105"
+                    className="page1-btn px-8 py-3 text-[2vh] font-semibold rounded-full bg-gradient-to-br from-[var(--primary-glow)] to-[var(--secondary-glow)] text-[var(--text-color)] shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_10px_40px_rgba(0,0,0,0.2)] backdrop-blur-md transition-all duration-500 ease-in-out hover:scale-105 flex items-center justify-center mx-auto"
                     data-magnetic data-strength="0.15"
+                    style={{
+                        minWidth: '220px',
+                        maxWidth: '90vw',
+                        letterSpacing: '0.04em',
+                    }}
                 >
                     Begin Your Journey
                 </button>

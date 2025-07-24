@@ -1,4 +1,3 @@
-/* Mobile-specific styles for screens <= 768px */
 @media (max-width: 768px) {
     body {
         font-size: 15px;
@@ -36,70 +35,95 @@
         color: var(--text-color) !important;
     }
 
-    #login {
-        display: none !important;
-    }
-
+    #login,
     #contact {
         display: none !important;
     }
 
-    .sperate:after {
-        font-size: 3vh !important;
+    .reveal-text {
+        position: relative;
+        padding-top: 12vh;
+        padding-bottom: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .mind {
-        font-size: 50vh !important;
-    }
-
-    .world {
-        font-size: 6vh !important;
-    }
-
-    /* Home Page Main Text */
     .reveal-text .text-\[10vw\] {
-        font-size: 15vw !important;
-        line-height: 1.1 !important;
-        position: absolute;
-        top: 20%;
+        font-size: clamp(12vw, 15vw, 20vw) !important;
+        line-height: 1.2 !important;
+        position: static !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
     }
 
     .reveal-text .ml-\[2vw\] {
-        margin-left: 1vw !important;
+        margin-left: 1.2vw !important;
     }
 
     .reveal-text .mt-\[2vh\] {
-        margin-top: 1vh !important;
+        margin-top: 1.5vh !important;
     }
 
     .page1-text-2 {
-        font-size: 2vh !important;
-        position: absolute;
-        top: 40%;
-        /* transform: translateX(-50%); */
+        position: fixed !important;
+        bottom: 2vh !important;
+        left: 95% !important;
+        transform: translate(-50%, -50%) !important;
+        right: 0 !important;
+        width: 90vw !important;
+        text-align: center;
+        z-index: 20;
     }
 
     .page1-text-2-para {
-        font-size: 3vh !important;
-        /* transform: translateX(-50%); */
+        font-size: 2.2vh !important;
+        line-height: 1.4;
     }
 
-    .reveal-text button {
-        font-size: 1.7vh !important;
-        padding: 6px 18px !important;
+    .reveal-text button,
+    .page1-btn {
+        font-size: clamp(1.5vh, 1.8vh, 2vh) !important;
+        padding: 1.2vh 3vh !important;
+        width: 85vw !important;
+        max-width: 320px !important;
+        margin: 0 auto;
+        border-radius: 9999px !important;
+        letter-spacing: 0.05em;
+        display: block;
+        text-align: center;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     }
 
-    /* Center CTA on mobile */
-    .reveal-text .absolute.bottom-\[10vh\] {
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        width: 90vw !important;
-    }
-
-    /* Tech icons smaller */
     .animate-float.text-\[3vh\] {
         font-size: 2vh !important;
     }
 
-    /* Add more selectors as needed for your layout */
+    .animate-float {
+        transform: none !important;
+    }
+
+    .absolute.w-full.h-full.top-0.left-0.z-0 {
+        z-index: -1 !important;
+    }
+
+    /* Resize floating circles */
+    .rounded-full.border-2 {
+        width: 6vh !important;
+        height: 6vh !important;
+    }
+
+    /* Optional: hide some background effects if performance is bad on mobile */
+    .floating-elements,
+    .brain-effects {
+        display: none !important;
+    }
+
+    .page1-btn:active {
+        transform: scale(0.97);
+        transition: transform 0.1s ease-in-out;
+    }
+
 }
