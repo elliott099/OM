@@ -7,6 +7,7 @@
 
     .navbar {
         flex-direction: column !important;
+        align-items: center !important;
         padding: 2vh 4vw !important;
         gap: 1vh;
     }
@@ -15,10 +16,23 @@
         flex-direction: column !important;
         gap: 2vh !important;
         font-size: 2.2vh !important;
+        align-items: center !important;
+    }
+
+    .nav-links .group {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 !important;
     }
 
     .logo-main {
         font-size: 4vh !important;
+        text-align: center !important;
+    }
+
+    .logo {
+        justify-content: center !important;
+        width: 100%;
     }
 
     .sperate:after {
@@ -31,6 +45,41 @@
 
     .world {
         font-size: 6vh !important;
+    }
+
+    /* Home Page Main Text */
+    .reveal-text .text-\[10vw\] {
+        font-size: 8vw !important;
+        line-height: 1.1 !important;
+    }
+
+    .reveal-text .ml-\[2vw\] {
+        margin-left: 1vw !important;
+    }
+
+    .reveal-text .mt-\[2vh\] {
+        margin-top: 1vh !important;
+    }
+
+    .reveal-text .text-\[2\.5vh\] {
+        font-size: 2vh !important;
+    }
+
+    .reveal-text button {
+        font-size: 1.7vh !important;
+        padding: 6px 18px !important;
+    }
+
+    /* Center CTA on mobile */
+    .reveal-text .absolute.bottom-\[10vh\] {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 90vw !important;
+    }
+
+    /* Tech icons smaller */
+    .animate-float.text-\[3vh\] {
+        font-size: 2vh !important;
     }
 
     /* Add more selectors as needed for your layout */
